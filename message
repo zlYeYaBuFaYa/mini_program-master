@@ -1,0 +1,113 @@
+{
+  "resultcode": "200",
+  "reason": "查询成功",
+  "result": {
+    "sk": {
+      "temp": "7",
+      "wind_direction": "东风",
+      "wind_strength": "3级",
+      "humidity": "37%",
+      "time": "17:13"
+    },
+    "today": {
+      "temperature": "-3℃~9℃",
+      "weather": "多云转晴",
+      "weather_id": {
+        "fa": "01",
+        "fb": "00"
+      },
+      "wind": "东北风3-5级",
+      "week": "星期四",
+      "city": "郑州",
+      "date_y": "2019年12月05日",
+      "dressing_index": "较冷",
+      "dressing_advice": "建议着厚外套加毛衣等服装。年老体弱者宜着大衣、呢外套加羊毛衫。",
+      "uv_index": "最弱",
+      "comfort_index": "",
+      "wash_index": "较适宜",
+      "travel_index": "较不宜",
+      "exercise_index": "较不宜",
+      "drying_index": ""
+    },
+    "future": {
+      "day_20191205": {
+        "temperature": "-3℃~9℃",
+        "weather": "多云转晴",
+        "weather_id": {
+          "fa": "01",
+          "fb": "00"
+        },
+        "wind": "东北风3-5级",
+        "week": "星期四",
+        "date": "20191205"
+      },
+      "day_20191206": {
+        "temperature": "-2℃~8℃",
+        "weather": "晴",
+        "weather_id": {
+          "fa": "00",
+          "fb": "00"
+        },
+        "wind": "南风微风",
+        "week": "星期五",
+        "date": "20191206"
+      },
+      "day_20191207": {
+        "temperature": "-1℃~11℃",
+        "weather": "晴转多云",
+        "weather_id": {
+          "fa": "00",
+          "fb": "01"
+        },
+        "wind": "南风微风",
+        "week": "星期六",
+        "date": "20191207"
+      },
+      "day_20191208": {
+        "temperature": "1℃~15℃",
+        "weather": "晴",
+        "weather_id": {
+          "fa": "00",
+          "fb": "00"
+        },
+        "wind": "西风3-5级",
+        "week": "星期日",
+        "date": "20191208"
+      },
+      "day_20191209": {
+        "temperature": "6℃~16℃",
+        "weather": "晴",
+        "weather_id": {
+          "fa": "00",
+          "fb": "00"
+        },
+        "wind": "西风3-5级",
+        "week": "星期一",
+        "date": "20191209"
+      },
+      "day_20191210": {
+        "temperature": "-1℃~11℃",
+        "weather": "晴转多云",
+        "weather_id": {
+          "fa": "00",
+          "fb": "01"
+        },
+        "wind": "南风微风",
+        "week": "星期二",
+        "date": "20191210"
+      },
+      "day_20191211": {
+        "temperature": "-1℃~11℃",
+        "weather": "晴转多云",
+        "weather_id": {
+          "fa": "00",
+          "fb": "01"
+        },
+        "wind": "南风微风",
+        "week": "星期三",
+        "date": "20191211"
+      }
+    }
+  },
+  "error_code": 0
+}
