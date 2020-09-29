@@ -6,7 +6,6 @@ import os, sys, requests, json
 pwd = os.path.dirname(os.path.realpath(__file__))
 sys.path.append(pwd + "../")
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "mini_program.settings")
-# 测试fesfds
 
 def weather(cityname):
     """ 
@@ -32,4 +31,5 @@ def weather(cityname):
 
 
 if __name__ == "__main__":
-    weather("郑州")
+    result = weather("郑州")
+    print(result)

@@ -16,8 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from api import views
+from api.views import views
+from api.views import menu
+from api.views import image
 
 urlpatterns = [
     path('weather/', views.query_weather),
+    path('menu/', menu.get_menu),
+    path('image/', image.image),
 ]

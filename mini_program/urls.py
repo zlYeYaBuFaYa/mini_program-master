@@ -16,11 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-from api import views
+from api.views import views
+from api.views import image
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('sayHello/', views.sayHello),
-    path('weather/', views.query_weather),
     path('api/v1.0/', include("mini_program.version_1_0")),
 ]
